@@ -1,0 +1,419 @@
+/*****************/
+/******Global CSS**
+****************/
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+h1, h2, h3, h4, h5, h6,{
+	font-family: 'Varela Round', sans-serif;
+}
+a {
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+}
+a:hover{
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+}
+p {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/*header start*/
+.header {
+	width:100%;
+	background: url(../image/BG.png) center bottom no-repeat;
+	background-size:cover;
+}
+.header .bg-light {
+	background: transparent !important;
+	padding:20px 0px;
+}
+.header .bg-light .nav-link {
+	color:#bdbcbc !important;
+	font-weight: 500;
+	font-size:18px;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: left;
+	margin:0px 10px;
+}
+.header .bg-light .active {
+	color:#fff !important;
+	font-weight: 500;
+	font-size:18px;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: left;
+	margin:0px 10px;
+}
+.header .bg-light .nav-link:hover,.header .bg-light .nav-link:focus {
+	color:#fff !important;
+	font-weight: 500;
+	font-size:18px;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: left;
+	margin:0px 10px;
+}
+.center {
+	display: flex;
+	justify-content: center;
+}
+#show {
+	display: none;
+
+}
+#showsm {
+	margin:-8px 25px 0px;
+	opacity: .6;
+}
+#showsm:hover {
+	margin:-8px 25px 0px;
+	opacity: 1;
+}
+.header-banner{
+	width:100%;
+	padding:80px 0px;
+	text-align: center;
+}
+.header-banner h1{
+	margin:100px 0px 0px;
+	font-size: 65px;
+	color:#fff;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: 'Varela Round', sans-serif;
+}
+.header-banner p{
+	font-size: 22px;
+	color:#fff;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin:25px 0px;
+}
+.header-banner .btn {
+	background: #16a085 !important;
+	padding: 10px 30px;
+	border:1px solid #16a085 ;
+	box-shadow: none !important;
+	color:#fff;
+	margin:10px 0px;
+	letter-spacing: 2px;
+}
+.header-banner .btn:hover,.header-banner .btn:focus {
+	background: transparent !important;
+	padding: 10px 30px;
+	border:1px solid #16a085 ;
+	box-shadow: none !important;
+	color:#16a085;
+	margin:10px 0px;
+	letter-spacing: 2px;
+	transition: 0.8s;
+}
+.footer{
+	width:100%;
+	padding:40px 0px;
+	text-align: center;
+}
+.footer-icon {
+	width:100%;
+	margin: 120px 0px 0px;
+	color:#c5c5c5;
+} 
+.footer-icon a {
+	color:#c5c5c5;
+	margin:0px 10px;
+	font-size:26px;	
+
+}
+.footer-icon a:hover,.footer-icon a:focus{
+	color:#fff;
+	margin:0px 10px;
+	font-size:26px;	
+}
+
+/*header section end*/
+
+
+
+
+
+/*second section start*/
+
+.second {
+	width:100%;
+	padding: 80px 0px;
+	background: url(../image/second.png) center top no-repeat,#f5f6f7;
+	background-size:initial;
+}
+.second h1 {
+	color:#16a085;
+	text-transform: uppercase;
+	font-size:34px;
+	line-height: 44px;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 700;
+}
+.second p {
+	color:#000;
+	font-size:20px;
+	line-height: 38px;
+	letter-spacing: 1px;	
+}
+.second .btn {
+    background: #16a085 !important;
+	padding: 10px 30px;
+	border:1px solid #16a085 ;
+	box-shadow: none !important;
+	color:#fff;
+	margin:10px 0px;
+	letter-spacing: 2px;
+}
+.second .btn:hover,.second .btn:focus {
+	background: transparent !important;
+	padding: 10px 30px;
+	border:1px solid #16a085 ;
+	box-shadow: none !important;
+	color:#16a085;
+	margin:10px 0px;
+	letter-spacing: 2px;
+	transition: 0.8s;
+}
+
+/*second section end*/
+
+
+
+
+/*design start*/
+
+.design {
+	width:100%;
+	margin:40px 0px -150px;
+	position: relative;
+	
+}
+
+.design h1 {
+	color:#16a085;
+	text-transform: uppercase;
+	font-size:34px;
+	line-height: 44px;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 700;
+}
+.design p {
+	color:#000;
+	font-size:20px;
+	line-height: 38px;
+	letter-spacing: 1px;
+	margin:25px 0px;	
+}
+.design .btn {
+    background: #16a085 !important;
+	padding: 10px 30px;
+	border:1px solid #16a085 ;
+	box-shadow: none !important;
+	color:#fff;
+	margin:10px 0px;
+	letter-spacing: 2px;
+}
+.design .align .btn-info:hover, .design .align .btn-info:focus {
+	background: #fff !important;
+	padding: 10px 30px;
+	border:1px solid #16a085 ;
+	box-shadow: none !important;
+	color:#16a085;
+	margin:10px 0px;
+	letter-spacing: 2px;
+	transition: 0.8s;
+}
+.align {
+	width: 100%;
+	height: 100%;
+	/*display: flex;
+	justify-content:  flex-start;*/
+	margin:80px 0px 0px;
+}
+
+/*design end*/
+
+
+
+/*community section start*/
+.community{
+	position: relative;
+	width: 100%;
+	padding: 80px 0px 80px;
+	background-color: #f5f6f7;
+	text-align: center;
+}
+
+.loot {
+	width: 100%;
+	display: flex;
+	align-items: center;
+
+}
+.lot img{
+	width: 80px;
+	margin:10px 0px;
+	
+}
+.lot h6{
+	font-size:22px;
+	color:#373737;
+	text-transform: uppercase;
+}
+.lot p{
+	font-size:22px;
+	color:#373737;
+	letter-spacing: 1px;
+}
+/*community section end*/
+
+
+
+
+
+/*subscribe section start*/
+
+.subscribe {
+	width:100%;
+	padding:80px 0px 260px;
+	background: url(../image/Livello3.png)center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.subscribe form {
+	margin:120px 0px 0px ;
+/*	position: relative;*/
+	padding:80px 0px ;
+}
+.subscribe label {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color:#fff;
+	font-size:36px;
+	
+}
+.subscribe input {
+/*	position: absolute*/;
+	border-radius: 3px;
+	outline: none;
+	border:none;
+	padding: 10px 40px;
+	margin:35px 0px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color:#000 !important;
+	font-size:22px;
+
+}
+
+.subscribe .btn{
+	background: #1abc9c !important;
+	color:#fff;
+	font-size: 20px;
+	padding: 13px 30px 8px;
+	border-radius: 0px 3px 3px 0px;
+	box-shadow: none !important;
+	/*position: absolute;
+	bottom:33%;
+	right:33%;*/
+	margin:-5px 0px 0px -50px;
+} 
+.subscribe .btn:hover ,.subscribe .btn:focus {
+	background: #16a085 !important;
+	color:#fff;
+}
+/*subscribe section end*/
+
+
+
+
+/*download section start*/
+.download {
+	padding: 60px 0px;
+	width:100%;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #f5f6f7;
+}
+
+.download h4 {
+	font-size: 36px;
+	line-height: 46px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color:#000;
+   font-family: 'Varela Round', sans-serif;
+
+}
+.download p {
+	font-size: 22px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	margin:15px 0px 25px;
+	color:#000;
+}
+
+.download a {
+	font-size: 22px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	padding:10px 30px;
+	margin:15px 10px;
+	color:#fff;
+	background: #1abc9c !important;
+	outline: none !important;
+	box-shadow: none !important;
+	border:none !important;
+}
+.download a:hover , .download a:focus {
+	font-size: 22px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	padding:10px 30px;
+	margin:15px 10px ;
+	color:#fff;
+	background: #16a085 !important;
+	outline: none !important;
+	box-shadow: none !important;
+	border:none !important;
+}
+/*download section end*/
+
+
+
+
+/*footer start*/
+footer {
+	padding:25px 0px 20px;
+	width:100%;
+}
+footer p {
+	text-transform: uppercase;
+	font-size:18px;
+	color:#000;
+}
+footer span {
+	color:#16a085;
+	font-weight: bold;
+}
+footer strong {
+	text-transform: none;
+
+}
+footer .right {
+	text-align: right;
+}
+/*footer end*/
